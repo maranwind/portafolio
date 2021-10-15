@@ -1,0 +1,209 @@
+@font-face {
+  font-family: BarberShop in Thailand;
+  font-family: Indiana Personal Use;
+  src: url("fonts/AboutLove.ttf") format("truetype");
+  src: url("fonts/BarberShopinThailand.ttf") format("truetype");
+}
+body {
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e0cbde;
+  border-radius: 20px;
+  border: 2px solid #e0cbde;
+}
+
+/*menu*/
+.menu {
+  background-color: #e0cbde;
+}
+
+.logo {
+  width: 250px;
+  height: 60px;
+}
+
+/*menu*/
+/*Principal*/
+.Principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Principal .imagen-descrip {
+  width: 60%;
+  margin: 5px;
+  padding: 30px;
+  height: 420px;
+}
+.Principal .imagen-descrip .centrar-descrip {
+  width: 100%;
+  height: 100%;
+  background-image: url("../resources/encerrar1.png");
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.Principal .imagen-descrip .centrar-descrip .nombre {
+  font-family: About Love;
+  font-size: 20px;
+  color: #967CAD;
+  width: 200px;
+  border-bottom: 2px solid #967CAD;
+  margin-left: 40px;
+}
+.Principal .imagen-descrip .centrar-descrip .descripcion {
+  color: #967CAD;
+  margin-left: 30px;
+  font-size: 19px;
+}
+.Principal .circulo-imagen {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: centrar-descrip;
+}
+.Principal .circulo-imagen img {
+  width: 90%;
+  height: 90%;
+}
+
+/*Principal*/
+.servicios {
+  background-color: #bd9ecc;
+}
+.servicios .titulo_servicios {
+  color: #f1f1f1;
+  width: 300px;
+  border-bottom: 2px solid #f1f1f1;
+  font-family: BarberShop in Thailand;
+}
+.servicios .titulo_servicios h1 {
+  font-size: 45px;
+}
+
+.Sobre_mi {
+  background-color: #DAD1D6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.Sobre_mi h1 {
+  color: #f1f1f1;
+  width: 300px;
+  border-bottom: 2px solid #f1f1f1;
+  font-family: BarberShop in Thailand;
+  font-size: 45px;
+}
+.Sobre_mi .contenido {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0px 5px 0px;
+}
+.Sobre_mi .contenido .imagen_persona {
+  width: 40%;
+  margin: 10px 10px 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+.Sobre_mi .contenido .imagen_persona img {
+  width: 80%;
+}
+.Sobre_mi .contenido .descripcion_mia {
+  background-image: url("../resources/encerrar2.png");
+  background-size: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px;
+  width: 50%;
+  height: 310px;
+  padding: 30px;
+}
+.Sobre_mi .contenido .descripcion_mia .nombre {
+  font-family: About Love;
+  font-size: 20px;
+  color: #967CAD;
+  width: 200px;
+  border-bottom: 2px solid #967CAD;
+  margin-left: 35px;
+}
+.Sobre_mi .contenido .descripcion_mia .descripcion {
+  color: #967CAD;
+  margin-left: 30px;
+  font-size: 19px;
+  padding: 5px;
+}
+
+.Trabajos .titulo_trabajos {
+  border-bottom: 2px solid #bd9ecc;
+  width: 300px;
+}
+.Trabajos .titulo_trabajos h1 {
+  color: #bd9ecc;
+  font-family: BarberShop in Thailand;
+  font-size: 45px;
+}
+
+.centro2 {
+  width: 420px;
+  height: 260px;
+}
+
+.centro3 {
+  width: 420px;
+  height: 260px;
+}
+
+/*`Habilidades*/
+.Habilidades {
+  background-color: #DAD1D6;
+}
+.Habilidades .titulo_habilidades {
+  width: 300px;
+  color: #bd9ecc;
+  border-bottom: 2px solid #bd9ecc;
+  font-family: BarberShop in Thailand;
+}
+.Habilidades .titulo_habilidades h1 {
+  font-size: 45px;
+}
+
+.letras {
+  color: #967CAD;
+}
+
+/*`Habilidades*/
+.Contacto .titulo_contacto {
+  width: 300px;
+  color: #bd9ecc;
+  border-bottom: 2px solid #bd9ecc;
+  font-family: BarberShop in Thailand;
+}
+.Contacto .titulo_contacto h1 {
+  font-size: 45px;
+}
+
+footer {
+  background-color: #bd9ecc;
+  height: 200px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
